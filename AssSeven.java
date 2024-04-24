@@ -9,7 +9,7 @@ import java.util.Scanner;
 			while(true)
 
 			System.out.print("Enter the number");
-			number = scanner.nextInt();
+			int number = scanner.nextInt();
 			
 			
 			int smallest = Math.min(Math.min),number);
