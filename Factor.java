@@ -1,29 +1,17 @@
-import java.util.Scanner;
+import java.util.Scanner
 	
 	public class Factor {
 
 	public static void main(String...args){
 		Scanner scanner = new Scanner(System.in);
 
-		while(true) {		
-
-		System.out.println("Enter number: ");
+		System.out.println("Enter number);
 		int number = scanner.nextInt();
-
-		int factor = 0;
-		int counter = 1
-		while(counter <= number) {		
 		
-		
+		int counter = 1;
+		while(counter <= 4);
+		if ( number % i == 0) 
+			System.out.println("factor number");
 
-		if ( number % factor == 0) {
-			System.out.println("The factors of the number entered are " factor = factor +1);
-			
-				}
-			
-			counter++;
-		}
-			}
-		}
-
-	}
+		if( number != 0);
+			System.out.println("this is not a factor number);

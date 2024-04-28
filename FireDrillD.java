@@ -11,13 +11,9 @@ import java.util.Scanner;
 			
 		System.out.println("Enter scores: ");
 		scores [i] = scanner.nextInt();
+		int []minimumNumbers =  FireDrillFunctions.taskFive(scores);
 		}
+			System.out.print(minimumNumbers);
 
-		int minimumNumbers =  FireDrillFunctions.taskFive(scores);
-		
-		//int maximumNumbers = FireDrillFunctions.taskSix(scores);
-		System.out.print(minimumNumbers);
-		
 	}
 }
-

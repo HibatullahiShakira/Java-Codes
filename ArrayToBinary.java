@@ -1,25 +1,25 @@
-public class ArrayToBinary{
+public class ArrayToBinary {
 
-	public static int[] BinaryArray(int[] digit) {
+	public static int[] BinaryArray(int[] digit) { 
 
-	int[] digit = new int[digit];
+	int[] figure = new int[digit.length];
 	for(int i = 0; i < digit.length; i++) {
-		digit[] = (digit[i] % 2 == 0) 0;
-		digit[] = (digit[i] % 2 > 0) 1;
+		 if (digit[i] % 2 == 0) figure[i] = 0;
+		if (digit[i] % 2 != 0) figure[i] = 1; 
 	}
-		arraydigit[] = {digit[], digit[]}
-
- 	return arraydigit;
+		return figure;
 	}
 
 	public static void main(String[] args) {
 	
-	int[] array = new int[5]; 
+	int[] array = {2,3,5,6,7};
 	
-	array[] = {2,3,5,6,7}
+	int[] output = ArrayToBinary.BinaryArray(array);
 
-	System.out.print
-
+	System.out.print(output);
+	
+	}
+}
 
 
 		

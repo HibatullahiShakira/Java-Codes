@@ -40,22 +40,20 @@ public class FireDrillFunctions {
 	return total;
 	}	
 
-	public static int taskFive(int[] numbers) {
-	int minimum = numbers[1];
+	public static int taskFive(int[] number) {
+	int minimum = number[0];
 	for(int i = 1; i < 10; i = i + 2) {
-		if(numbers[i] < minimum) minimum = numbers[i];
+		if(number[i] < minimum) minimum = number[i];
 	}
 	return minimum;
 }
 
-	public static int taskSix(int[] numbers) {
-	int maximum = 0;
+	public static int taskSix(int[] number) {
+	int maximum = number[0];
 	int i;
-	for(i = 0; i < 10; i = i + 2) {
-		if(numbers[i] > maximum) 
-			maximum = numbers[i];
-	}
-
+	for(i = 0; i < 10; i = + 2) {
+		if(number[i] > maximum) maximum = number[i];
+		}
 		return maximum;
 		
 }

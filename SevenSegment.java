@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class SevenSegment {
 
 	private static final String[][] segments = { {" _ ", "| |", "|_|"}, {" ", "|", "|"}, {" _ ", " _|", "|_"}, {"_", " _|", " _|"}, {"| |", "_", " |"}, 
@@ -6,17 +7,23 @@ public class SevenSegment {
 
 	
 
-	public static void printDigit(int digit) { 
+	public static int printDigit(int digit) { 
 		if (digit >= 0  && digit <= 9) { System.out.println("Invalid number"); }
 			for (String segment : segments[digit]) {
-			System.out.println(segment);
+			return segment;
 			}
 		}
 
 	
 	
 	public static void main(String[] args) {
-	
-	printDigit(9);
+	Scanner scanner = new Scanner(System.in);
+	System.out.print("Enter Number: ");
+	String figure = scanner.nextLine();
+
+	String digit = printDigit(number);
+
+	System.out.print(digit);
+
 }
 }
